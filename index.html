@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAWALNESIA</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .produk {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+    .produk h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 0.5rem;
+    }
+    .produk ul {
+      list-style: none;
+      padding: 0;
+    }
+    .produk li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .produk li:last-child {
+      border-bottom: none;
+    }
+    .produk .nama {
+      font-weight: bold;
+    }
+    .produk .harga {
+      margin-right: 1rem;
+    }
+    .produk .beli {
+      background-color: #00ffcc;
+      color: #000;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .produk .beli:hover {
+      background-color: #00ccaa;
+    }
+    .pembayaran {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+    .pembayaran h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 0.5rem;
+    }
+    .pembayaran .metode {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .pembayaran .metode span {
+      margin-left: 1rem;
+      background-color: cyan;
+      color: black;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .pembayaran .metode span:hover {
+      background-color: #ddd;
+    }
+    .pembayaran .metode span:active {
+      transform: scale(0.95);
+    }
+    .pembayaran .metode span.copy {
+      display: inline-block;
+      margin-left: 1rem;
+      background-color: #ffdd57;
+      color: black;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .pembayaran .metode span.copy:hover {
+      background-color: #1e62b4;
+    }
+    .qr-code {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .qr-code img {
+      width: 200px;
+      height: 200px;
+    }
+        /* QRIS Button */
+        .qris-button {
+            background: #00e676;
+            color: white;
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .qris-button:hover {
+            background: #00c853;
+        }
+        .qris-button {
+            background: #ffdd57;
+            color: black;
+            font-weight: bold;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>sawal hosting</h1>
+    <p>sᴏʟᴜsɪ ᴛᴇʀʙᴀɪᴋ ᴜɴᴛᴜᴋ ᴋᴇʙᴜᴛᴜʜᴀɴ ᴅɪɢɪᴛᴀʟ ᴀɴᴅᴀ</p>
+  </header>
+
+  <section class="produk">
+    <h2>𝗣𝗔𝗡𝗘𝗟 𝗣𝗧𝗘𝗥𝗢𝗗𝗔𝗖𝗧𝗬𝗟 𝗣𝗥𝗜𝗩𝗔𝗧</h2>
+    <ul>
+      <li><span class="nama">1𝗚𝗕</span><span class="harga">Rp. 2.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%201GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">2𝗚𝗕</span><span class="harga">Rp. 3.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%202GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝟯𝗚𝗕</span><span class="harga">Rp. 4.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%203GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝟰𝗚𝗕</span><span class="harga">Rp. 7.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%204GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝟲𝗚𝗕</span><span class="harga">Rp. 8.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%206GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝟳𝗚𝗕</span><span class="harga">Rp. 9.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%207GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝟭𝟬𝗚𝗕</span><span class="harga">Rp. 11.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%2010GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝗨𝗡𝗟𝗜𝗠𝗜𝗧𝗘𝗗</span><span class="harga">Rp. 13.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%20Unlimited%20Panel%20Pterodactyl"class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+  </section>
+
+  <section class="produk">
+    <h2>𝗥𝗘𝗦𝗦/𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟 𝗣𝗧𝗘𝗥𝗢𝗗𝗔𝗖𝗧𝗬𝗟</h2>
+    <ul>
+    <li><span class="nama">𝗥𝗘𝗦𝗘𝗟𝗟𝗘𝗥 𝗣𝗔𝗡𝗘𝗟 𝟭𝗕𝗨𝗟𝗔𝗡</span><span class="harga">Rp. 5.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20menjadi%20Reseller%20Panel%20Pivat%201Bulan" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    
+    
+    <li><span class="nama">𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟 𝟭𝗕𝗨𝗟𝗔𝗡</span><span class="harga">Rp. 12.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20menjadi%20Admin%20Panel%20Pterodactyl%201BULAN" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+  </section>
+  
+  <section class="produk">
+    <h2>SELL SCRIPT BOT</h2>
+    <ul>
+    <li><span class="nama">SCRIPT BOT TOPUP ALL GAME & ALL GAME</span><span class="harga">Rp. 15.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%20script%20bot%20topup" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    <li><span class="nama">SCRIPT CREATE PANEL OTOMATIS PAYMENT GETAWAY ORDER KOUTA</span><span class="harga">Rp. 25.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%20script%20bot%20createpanel%20getaway%20orderkouta" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+    </section>
+  <section class="produk">
+    <h2>JASA SEWA BOT PUSHKONTAK+JPM</h2>
+    <ul>
+    <li><span class="nama">3 HARI</span><span class="harga">Rp. 5.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%20sewa%20bot%20botpush%20kontak%20tiga%20hari" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    <li><span class="nama">5 HARI</span><span class="harga">Rp. 12.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%20sewa%20bot%20botpush%20kontak%20lima%20hari" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+    </setcton>
+    <h2>JASA PEMBUATAN WEBSITE STORE</h2>
+    <ul>
+    <li><span class="nama">WEB HOSTING BEBAS REQUES</span><span class="harga">Rp. 50.000</span><a href="https://wa.me/62895428441228?text=Saya%20ingin%20membeli%20web%20hosting" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+    </section>
+     <script>
+    function copyToClipboard(id) {
+        let text = document.getElementById(id).innerText;
+        let input = document.createElement("input");
+        document.body.appendChild(input);
+        input.value = text;
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+
+        // Mainkan suara gelembung
+        document.getElementById('bubbleSound').play();
+
+        alert("Nomor berhasil disalin: " + text);
+    }
+
+    function openQRIS() {
+        // Ganti dengan link gambar QRIS Anda
+        let qrisLink = "https://files.catbox.moe/3xqxc2.jpg"; 
+        window.open(qrisLink, "_blank");
+    }
+</script>
+
+  <footer>
+    <p>&copy; 2025 sawalneia sᴛᴏʀᴇ - ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ</p>
+  </footer>
+
+</body>
+</html>
